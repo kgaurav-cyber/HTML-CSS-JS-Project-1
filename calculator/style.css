@@ -1,10 +1,20 @@
 body {
     background: linear-gradient(135deg, #1e1e2f, #3a3a5a);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     font-family: Arial, sans-serif;
+}
+
+.title h1 {
+    color: #00ffcc;
+    text-shadow: 0 0 10px rgba(0, 255, 204, 0.6);
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .calculator {
